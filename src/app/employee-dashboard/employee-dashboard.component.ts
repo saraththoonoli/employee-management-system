@@ -11,6 +11,7 @@ import { EmployeeService } from '../employee.service';
 export class EmployeeDashboardComponent implements OnInit {
   loggedInEmployeeId: string | null;
   loggedInEmployee: any;
+  
 
   constructor(
     private authService: AuthService,
