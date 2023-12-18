@@ -1,0 +1,26 @@
+
+<h2>Pending Leave Requests</h2>
+<!-- Display pending leave requests in a table -->
+<div class="table-responsive">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Employee ID</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let request of pendingLeaveRequests">
+        <td>{{ request.employeeId }}</td>
+        <td>{{ request.startDate }}</td>
+        <td>{{ request.endDate }}</td>
+        <td>
+          <button class="btn btn-success" (click)="approveLeave(request.id)">Approve</button> &nbsp;
+          <button class="btn btn-danger" (click)="rejectLeave(request.id)">Reject</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

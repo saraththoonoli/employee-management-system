@@ -1,0 +1,41 @@
+
+<div>
+  <a class="btn btn-secondary ms-5 me-5 mt-3" (click)="goBack()">Back</a>
+</div>
+
+<div class="container mt-5">
+  <div *ngIf="loggedInEmployee">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>email</th>
+          <th>phone</th>
+          <th>age</th>
+          <th>dob</th>
+          <th>image</th>
+          <th>bloodgroup</th>
+          <th>gender</th>
+          <th>leavedetails</th>
+          <!-- Add more columns as needed -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ loggedInEmployee.name }}</td>
+          <td>{{ loggedInEmployee.email }}</td>
+          <td>{{ loggedInEmployee.phone }}</td>
+          <td>{{ loggedInEmployee.age }}</td>
+          <td>{{ loggedInEmployee.dob }}</td>
+          <td><img [src]="loggedInEmployee.image" alt="Employee Image" width="70" height="50" /></td>
+          <td>{{ loggedInEmployee.bloodGroup }}</td>
+          <td>{{ loggedInEmployee.gender }}</td>
+          <td>{{ loggedInEmployee.leaveDetails }}</td>
+
+          <!-- Display more details here -->
+        </tr>
+      </tbody>
+    </table>
+    <a class="btn btn-primary" [routerLink]="['/edit-employee', loggedInEmployee.id]">Edit Details</a>
+  </div>
+</div>

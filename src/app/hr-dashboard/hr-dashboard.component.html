@@ -1,0 +1,31 @@
+<div id="container">
+    <!-- Left Sidebar/Menu -->
+    <div id="sidebar">
+     <img src=""  alt="">
+      <a routerLink="hr-dashboard">Dashboard</a>
+      <a href='employee-details'>Employee Details</a>
+      <a href="create-employee">Add new employee</a>
+      <a href="#">Settings</a>
+      <a type="button" href="login"><i class="fa-solid fa-arrow-left fa-xl" style="color: #ffffff;"></i>&nbsp;Go Back</a>
+    </div>
+
+    <!-- Right Dashboard Space -->
+    <div id="dashboard">
+      <!-- Content for the dashboard goes here -->
+     <div  style="justify-content: space-between; display: flex;">
+        <h1>Welcome to the HR Dashboard</h1> &nbsp;
+        <a type="button" class="btn btn-success" href="create-employee"> Add employee</a>
+  
+     </div>
+
+      <app-hr-leave></app-hr-leave>
+      
+
+      <!-- chart -->
+
+      <app-donut-chart></app-donut-chart>
+
+      
+    </div>
+    
+  </div>

@@ -1,0 +1,19 @@
+<div id="container">
+    <!-- Left Sidebar/Menu -->
+    <div id="sidebar">
+     <img src=""  alt="">
+      <a routerLink="employee-dashboard">Dashboard</a>
+      <a href="emp-details">Details page</a>
+      <a href="leave-req">Leave application page</a>
+      <a href="#">Settings</a>
+      <a type="button" href="login"><i class="fa-solid fa-arrow-left fa-xl" style="color: #ffffff;"></i>&nbsp;Go Back</a>
+    </div>
+
+    <!-- Right Dashboard Space -->
+    <div id="dashboard">
+      <div *ngIf="loggedInEmployee">
+        <h1>Welcome, <span>{{ loggedInEmployee.name }}</span></h1>
+      </div>
+
+    </div>
+  </div>

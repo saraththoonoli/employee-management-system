@@ -1,0 +1,190 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "username": "employee1",
+      "password": "employee1password",
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "phone": "1234567890",
+      "age": 30,
+      "dob": "1992-01-01",
+      "image": "https://example.com/employee1.jpg",
+      "bloodGroup": "O+",
+      "gender": "male",
+      "leaveDetails": "5 leave taken"
+    },
+    {
+      "name": "sharath.s",
+      "email": "mama@gmail",
+      "phone": "9874586214",
+      "age": 23,
+      "dob": "2023-12-21",
+      "image": "https://media.licdn.com/dms/image/D5603AQERl2UEHojnSg/profile-displayphoto-shrink_200_200/0/1696170916176?e=2147483647&v=beta&t=QaLTJxALDgI3n7Eek-Dz4Natkj9z3mpad3jcIyTJH-s",
+      "bloodGroup": "B+ve",
+      "gender": "male",
+      "leaveDetails": "2 leave",
+      "username": "saraththoonoli",
+      "password": "sarath",
+      "id": 3,
+      "status": "inactive"
+    },
+    {
+      "name": "shamal",
+      "email": "shamal@gmail.com",
+      "phone": "5215687598",
+      "age": 22,
+      "dob": "2000-10-12",
+      "image": "",
+      "bloodGroup": "A+ve",
+      "gender": "male",
+      "leaveDetails": "",
+      "username": "shamal",
+      "password": "shamal",
+      "id": 4
+    },
+    {
+      "name": "dulquer",
+      "email": "dulquer@gmail.com",
+      "phone": "1234567892",
+      "age": 20,
+      "dob": "2003-03-21",
+      "image": "",
+      "bloodGroup": "o+ve",
+      "gender": "male",
+      "leaveDetails": "",
+      "username": "dq",
+      "password": "dq123",
+      "id": 5
+    }
+  ],
+  "leaveRequests": [
+    {
+      "status": "approved",
+      "id": 1
+    },
+    {
+      "status": "approved",
+      "id": 2
+    },
+    {
+      "status": "approved",
+      "id": 3
+    },
+    {
+      "status": "approved",
+      "id": 4
+    },
+    {
+      "status": "rejected",
+      "id": 5
+    },
+    {
+      "status": "rejected",
+      "id": 6
+    },
+    {
+      "status": "approved",
+      "id": 7
+    },
+    {
+      "status": "approved",
+      "id": 8
+    },
+    {
+      "status": "rejected",
+      "id": 9
+    },
+    {
+      "status": "approved",
+      "id": 10
+    },
+    {
+      "status": "rejected",
+      "id": 11
+    },
+    {
+      "status": "rejected",
+      "id": 12
+    },
+    {
+      "status": "approved",
+      "id": 13
+    },
+    {
+      "status": "approved",
+      "id": 14
+    },
+    {
+      "status": "approved",
+      "id": 15
+    },
+    {
+      "status": "approved",
+      "id": 16
+    },
+    {
+      "status": "approved",
+      "id": 17
+    },
+    {
+      "status": "approved",
+      "id": 18
+    },
+    {
+      "employeeId": "1",
+      "startDate": "2023-12-21",
+      "endDate": "2023-12-22",
+      "reason": "kj",
+      "status": "pending",
+      "id": 19
+    },
+    {
+      "status": "approved",
+      "id": 20
+    },
+    {
+      "employeeId": "4",
+      "startDate": "2023-12-22",
+      "endDate": "2023-12-25",
+      "reason": "ugug",
+      "status": "pending",
+      "id": 21
+    },
+    {
+      "status": "approved",
+      "id": 22
+    },
+    {
+      "status": "approved",
+      "id": 23
+    },
+    {
+      "employeeId": "3",
+      "startDate": "2023-12-22",
+      "endDate": "2023-12-23",
+      "reason": "niu",
+      "status": "pending",
+      "id": 24
+    },
+    {
+      "employeeId": "3",
+      "startDate": "2023-02-12",
+      "endDate": "2023-02-18",
+      "reason": "wjdnlemd",
+      "leaveType": "vacation",
+      "status": "pending",
+      "id": 25
+    },
+    {
+      "employeeId": "4",
+      "startDate": "2023-12-21",
+      "endDate": "2023-12-28",
+      "reason": "jhb1hj",
+      "leaveType": "personal",
+      "status": "pending",
+      "id": 26
+    }
+  ],
+  "hrResponses": []
+}
