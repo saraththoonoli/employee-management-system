@@ -11,6 +11,7 @@ import { EmpDetailsComponent } from './emp-details/emp-details.component';
 import { LeaveApplicationComponent } from './leave-application/leave-application.component';
 import { LeaveRequestComponent } from './leave-request/leave-request.component';
 import { EmpEditComponent } from './emp-edit/emp-edit.component';
+import { WilsCardComponent } from './wils-card/wils-card.component';
 
 
 const routes: Routes = [
@@ -24,9 +25,8 @@ const routes: Routes = [
   { path: 'emp-details', component: EmpDetailsComponent, canActivate: [AuthGuard] },
   { path: 'leave-application', component: LeaveApplicationComponent, canActivate: [AuthGuard] },
   { path: 'leave-req', component: LeaveRequestComponent, canActivate: [AuthGuard] },
-  { path: 'edit-employee/:id', component: EmpEditComponent, canActivate: [AuthGuard] }
-
-
+  { path: 'edit-employee/:id', component: EmpEditComponent, canActivate: [AuthGuard] },
+  {path:'**',component:WilsCardComponent}
 ];
 
 @NgModule({

@@ -19,6 +19,8 @@ import { LeaveApplicationComponent } from './leave-application/leave-application
 import { LeaveRequestComponent } from './leave-request/leave-request.component';
 import { EmpEditComponent } from './emp-edit/emp-edit.component';
 import { HrLeaveComponent } from './hr-leave/hr-leave.component';
+import { FooterComponent } from './footer/footer.component';
+import { WilsCardComponent } from './wils-card/wils-card.component';
 
 
 @NgModule({
@@ -36,7 +38,9 @@ import { HrLeaveComponent } from './hr-leave/hr-leave.component';
     LeaveApplicationComponent,
     LeaveRequestComponent,
     EmpEditComponent,
-    HrLeaveComponent
+    HrLeaveComponent,
+    FooterComponent,
+    WilsCardComponent
   ],
   imports: [
     BrowserModule,
