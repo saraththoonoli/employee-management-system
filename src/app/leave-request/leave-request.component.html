@@ -1,5 +1,4 @@
-<!-- apply-leave.component.html -->
-
+<!-- leave application form.. -->
 <div class="container mt-4">
   <h2 class="mb-4">Apply for Leave</h2>
   <form [formGroup]="leaveForm" (ngSubmit)="applyLeave()">
@@ -9,7 +8,6 @@
         <option value="sick">Sick Leave</option>
         <option value="vacation">Vacation</option>
         <option value="personal">Personal Leave</option>
-        <!-- Add more options as needed -->
       </select>
     </div>
     <div class="mb-3">
@@ -27,8 +25,8 @@
     <button type="submit" [disabled]="leaveForm.invalid" class="btn btn-primary">Apply</button>
   </form>
 </div>
-<!-- leave-request.component.html -->
 
+<!-- leave req details -->
 <div class="container mt-4">
   <h2 class="mb-4">Your Leave Requests</h2>
   <table class="table">
@@ -45,8 +43,6 @@
         <td>{{ request.endDate }}</td>
         <td style="color: red;">{{ request.status }}</td>
         <td>
-          <!-- Add any action buttons or links as needed -->
-          <!-- Example: <button (click)="performAction(request)" class="btn btn-sm btn-primary">Perform Action</button> -->
         </td>
       </tr>
     </tbody>
