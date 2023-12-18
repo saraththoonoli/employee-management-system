@@ -8,6 +8,8 @@
         <th>Employee ID</th>
         <th>Start Date</th>
         <th>End Date</th>
+        <th>Reason</th>
+        <th>Leave type</th>
         <th>Action</th>
       </tr>
     </thead>
@@ -16,6 +18,9 @@
         <td>{{ request.employeeId }}</td>
         <td>{{ request.startDate }}</td>
         <td>{{ request.endDate }}</td>
+        <td> {{request.reason}} </td>
+        <td> {{request.leaveType}} </td>
+
         <td>
           <button class="btn btn-success" (click)="approveLeave(request.id)">Approve</button> &nbsp;
           <button class="btn btn-danger" (click)="rejectLeave(request.id)">Reject</button>

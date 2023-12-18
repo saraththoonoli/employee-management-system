@@ -132,11 +132,7 @@
       "id": 18
     },
     {
-      "employeeId": "1",
-      "startDate": "2023-12-21",
-      "endDate": "2023-12-22",
-      "reason": "kj",
-      "status": "pending",
+      "status": "rejected",
       "id": 19
     },
     {
@@ -144,11 +140,7 @@
       "id": 20
     },
     {
-      "employeeId": "4",
-      "startDate": "2023-12-22",
-      "endDate": "2023-12-25",
-      "reason": "ugug",
-      "status": "pending",
+      "status": "approved",
       "id": 21
     },
     {
@@ -160,11 +152,7 @@
       "id": 23
     },
     {
-      "employeeId": "3",
-      "startDate": "2023-12-22",
-      "endDate": "2023-12-23",
-      "reason": "niu",
-      "status": "pending",
+      "status": "approved",
       "id": 24
     },
     {
